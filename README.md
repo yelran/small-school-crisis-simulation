@@ -17,6 +17,7 @@ https://small-school-crisis-simulation.onrender.com
 
 <br>
 
+
 ## 주요 기능
 
 - 전국 고위험·중위험 학교 분포 지도
@@ -26,6 +27,12 @@ https://small-school-crisis-simulation.onrender.com
 - OSRM 실제 도로거리 기반 통폐합·통합운영 후보 추천
 - Prophet 시계열 모델 기반 10년 후 학생수 예측
 
+<br>
+
+## 사용자 흐름
+<img width="886" height="744" alt="image" src="https://github.com/user-attachments/assets/59f27c9a-4406-409e-b67d-857fe0c873bc" />
+
+<br>
 <br>
 
 ## 파이프라인
