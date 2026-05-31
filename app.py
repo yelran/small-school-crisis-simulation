@@ -39,8 +39,6 @@ def safe_read(path, **kw):
 
 
 # ── 초등학교 학생수 시계열 로드 (Prophet용: 통합 CSV 1개 사용) ────────────────
-STUDENT_TS_FILE = DATA_DIR + r"\데이터\2008_2025_초등_국공립_학급학생수교사수_통합.csv"
-
 print("학생수 시계열 로드 중...")
 
 df_student_ts = safe_read(STUDENT_TS_FILE)
@@ -186,6 +184,7 @@ app = dash.Dash(
     suppress_callback_exceptions=True
 )
 app.title = "소규모 학교 위기 예측 시뮬레이터"
+server = app.server
 
 app.layout = html.Div([
     dcc.Store(id='sel-school', data=None),
