@@ -1,0 +1,8 @@
+dash
+dash-leaflet
+dash-bootstrap-components
+pandas
+numpy
+plotly
+prophet
+gunicorn
